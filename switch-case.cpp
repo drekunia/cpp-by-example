@@ -33,6 +33,7 @@ int main(int argc, char *argv[]) {
       break;
     default:
       cout << "use medium as default\n";
+      break;
     }
   } else if (tolower(response) == 'n') {
     cout << "Okay, we don't play anything, then...\n";
