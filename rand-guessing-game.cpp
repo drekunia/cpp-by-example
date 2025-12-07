@@ -87,7 +87,7 @@ int main(int argc, char *argv[]) {
       break;
     default:
       cout << "You didn't choose any difficulty.\n";
-      break;
+      return 0;
     }
 
     if (result) {
